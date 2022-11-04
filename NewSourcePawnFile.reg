@@ -1,0 +1,35 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.sp]
+@="sp_auto_file"
+"Content Type"="text/plain"
+"PerceivedType"="text"
+
+[HKEY_CLASSES_ROOT\.sp\ShellNew]
+"FileName"="sourcepawn.sp"
+"ItemName"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,6e,00,6f,00,74,00,65,00,70,00,61,00,64,00,2e,00,65,00,78,00,65,00,2c,00,\
+  2d,00,34,00,37,00,30,00,00,00
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\sp_auto_file]
+@="SourcePawn file"
+
+[HKEY_CLASSES_ROOT\sp_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\sp_auto_file\shell\edit]
+
+[HKEY_CLASSES_ROOT\sp_auto_file\shell\edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
+
+[HKEY_CLASSES_ROOT\sp_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\sp_auto_file\shell\open\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,4e,00,4f,00,\
+  54,00,45,00,50,00,41,00,44,00,2e,00,45,00,58,00,45,00,20,00,25,00,31,00,00,\
+  00
